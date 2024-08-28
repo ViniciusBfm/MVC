@@ -1,0 +1,302 @@
+section{
+    padding: 0 2%;
+}
+.fale-conosco{
+border-radius: 5px;
+background-color: #0d58c9;
+}
+.titulo{
+margin-right: 30px;
+}
+.no-outline:focus {
+outline: none;
+box-shadow: none;
+}
+.frete-gratis{
+padding: 10px 2%;
+}
+h1{
+margin: 0;
+padding: 0;
+}
+.links-tops a, .links-tops p{
+font-size: 14px;
+}
+.menu{
+padding: 5px 2%;
+background-color: #ececec;
+}
+.pesquisa-radius-left{
+border-radius: 0;
+border-top-left-radius: 25px;
+border-bottom-left-radius: 25px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+background-color: #ececec;
+}
+.pesquisa-radius-right{
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+border: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px 20px;
+}
+.ver-btn{
+    padding: 8px 40px;
+    text-decoration: none;
+}
+.slider-container {
+width: 100%;
+height: auto;
+margin: 0 auto; 
+overflow: hidden; 
+}
+.slider-container .carousel-inner {
+height: 100%; 
+}
+.slider-container .carousel-item img {
+width: 100%;
+height: 100%;
+object-fit: cover; /* Garante que a imagem se ajuste ao contêiner */
+}
+.informacao{
+width: 100%;
+height: 55dvh;
+margin: 20px auto;
+max-width: 1200px;
+}
+.container{
+width: 100%;
+height: 100%;
+}
+.row{
+height: 100%;
+}
+.col-md-5{
+color: white;
+}
+.box1{
+background-image: url(../image/imagem.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+}
+.box2{
+background-image: url(../image/imagem2.png);
+background-size: cover;
+background-position: center;
+position: relative;
+}
+.box1 button, .box2 button{
+position: absolute;
+bottom: 13px;
+left: 50%;
+transform: translate(-50%,0%);
+}
+.infos2{
+background-color: #ececec;
+padding: 30px 2%;
+max-width: 1200px;
+margin: 20px auto;
+}
+.flex-box{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.mais-vendidos{
+margin: 10px auto;
+max-width: 1200px;
+}
+.titulo2{
+padding: 30px 0;
+}
+.box-mais-vendidos{
+padding: 10px 0;
+}
+.box-produtos{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 15px;
+position: relative;
+padding: 10px 2%;
+margin: 10px auto;
+border: 1px solid #ececec;
+max-width: 350px;
+cursor: pointer;
+}
+.promocao{
+position: absolute;
+top: 0;
+left: 0;
+padding: 5px 2%;
+background-color: #d62e2b;
+}
+.img-produto img{
+width: 90px;
+height: 90px;
+transition: linear 200ms;
+}
+.img-produto img:hover{
+transform: scale(1.1,1.1);
+}
+.titulo-produto h1{
+font-weight: normal;
+}
+.ver-mais{
+padding: 30px 0;
+}
+.ver-mais button{
+width: 100%;
+max-width: 200px;
+}
+.newsletter{
+max-width: 1200px;
+margin: 20px auto;
+}
+.newsletter p{
+margin-top: 10px;
+}
+.form-email{
+display: flex;
+align-items: stretch;
+justify-content: center;
+height: 45px;
+position: relative;
+margin-top: 10px;
+}
+.form-email input[type=email]{
+width: 100%;
+margin: 0;
+padding-left: 10px;
+padding: 0;
+font-size: 16px;
+background-color:white;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
+transition: linear 200ms;
+max-width: 1000px;
+border: 1px solid black;
+}
+.form-email input[type=email]:hover{
+border: 1px solid white;
+}
+.form-email input[type=submit]{
+width: calc(30% + 30px);
+border-top-left-radius: 25px;
+border-bottom-left-radius: 25px;
+position: absolute;
+right: 0px;
+height: 100%;
+background-color: black;
+color: white;
+transition: linear 200ms;
+border: 1px solid black;
+}
+.form-email input[type=submit]:hover{
+background-color: #ececec;
+color: black;
+border: 1px solid black;
+}
+.central-ajuda{
+background-color: #000000;
+margin: 20px 0;
+}
+.central-ajuda p{
+margin: 20px 0;
+}
+.central-text{
+max-width: 500px;
+}
+.central-titulo{
+padding: 15px 0;
+display: none;
+}
+.sobre{
+padding: 20px 0;
+background-color: #ececec;
+}
+.titulo-sobre{
+padding: 15px 0;
+}
+.info-sobre{
+padding: 3px 0;
+}
+.sobre a{
+color: black;
+text-decoration: none;
+}
+.sobre a:hover{
+color: #0b6eff;
+}
+.pagamentos-container{
+margin: 20px 0;
+padding: 20px 0;
+}
+.pagamento{
+font-size: 14px;
+}
+.imagem{
+margin-top: 20px;
+}
+.pagamentos-container img{
+max-width: 500px;
+width: 100%;
+}
+footer{
+padding: 20px 0;
+background-color: #ececec;
+}
+footer p{
+margin: 0;
+padding: 2px 0;
+}
+.carousel{
+overflow: hidden;
+}
+.carousel-inner{
+height: 100%;
+}
+@media screen and (max-width: 991px){
+.search-pesquisa{
+    padding: 15px 0;
+}
+}
+@media screen and (max-width: 766px){
+.flex-box{
+    justify-content: center;
+    margin: 8px 0;
+}
+.links-tops a{
+    display: none;
+}
+.central-titulo{
+    display: block;
+}
+.central-text h1{
+    display: none;
+}
+.col-md-3{
+    text-align: center;
+}
+.ca{
+    display: none;
+}
+.central{
+    width: 100%;
+    text-align: center;
+}
+.central-ajuda{
+    padding: 20px 0;
+}
+.informacao{
+    max-height: 300px;
+}
+
+}
