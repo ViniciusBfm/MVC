@@ -7,10 +7,7 @@ class MainView
     private $header;
     private $footer;
 
-    const titulo = 'Projeto MVC';
-
-    public $menuitens = array('Home','Produtos','Sobre');
-    public $menudrop = array('Fale conosco','Duvidas frequentes','Contato');
+    const titulo = 'Repros';
     
     public function __construct($fileName, $header = 'header', $footer = 'footer')
     {
@@ -19,15 +16,17 @@ class MainView
         $this->footer = $footer;
     }
     
-    public function render($arr = []){
-        // Inclui o header se não for null
+    public function render($arr = [])
+    {
+        // Extrair variáveis do array para uso no template
+        extract($arr);
+
         if ($this->header) {
             include('pages/templates/'.$this->header.'.php');
         }
 
         include('pages/'.$this->fileName.'.php');
         
-        // Inclui o footer se não for null
         if ($this->footer) {
             include('pages/templates/'.$this->footer.'.php');
         }
